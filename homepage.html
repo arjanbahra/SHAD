@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="firebaselogout.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="homepage.css" />
+    <title>Testing</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="homepage.html" class="logo">
+            <img src="assets/logo.png" alt="Youth Solutions" style="width: 100px; height: auto;">
+          </a>
+          <a class="logo-text">Youth Solutions</a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+
+        <li><a href="homepage.html">Oppertunities</a></li>
+        <li><a href="#footer">Contact</a></li>
+        <li><button class="logout" id="logout" ><h5>Log Out</h5></button></li>
+      </ul>
+    </nav>
+    </header>
+
+
+
+
+    <section class="welcome" id="welcome">
+        <h2 class="section__header">Welcome <span id="loggedUserFName"></span></h2>
+        <p class="section__description">
+            Please fill out this form in order to continue. Once you have submitted it, please wait for our team to get back to you and allow you accsess
+        </p>
+
+        <div class="card-container">
+            <div class="card">
+                <img src="assets/student.jpg" alt="Image Description">
+                <div class="card__content">
+                  <p class="card__title">Be a Student</p>
+                  <p class="card__description">
+                    Students, unleash your creativity! Showcase your innovative ideas to top corporations seeking fresh perspectives. From online showcases to competitions, we amplify your voice, attracting sponsors eager to fund your vision. Seize this opportunity to make an impact and pave the way for future innovations.
+                  </p>
+                  <button class="card__button" onclick="window.location.href = 'https://form.jotform.com/242035836899268';">Submit</button>
+                </div>
+              </div>
+          
+              <div class="card">
+                <img src="assets/man.jpg" alt="Image Description">
+                <div class="card__content">
+                  <p class="card__title">Be a Sponsor</p>
+                  <p class="card__description">
+                    Sponsors, ignite innovation with us! Explore cutting-edge ideas from young minds worldwide. Partner with us to support groundbreaking projects and gain visibility through engaging events and collaborations. Join a movement that empowers the next generation of leaders. Together, let's shape a brighter future.
+                  </p>
+                  <button class="card__button" onclick="window.location.href = 'https://form.jotform.com/242045813017246';">Submit</button>
+
+                </div>
+              </div>
+ 
+          </div>
+          <p class="card__description1">
+            Student                Sponsor
+          </p>
+
+     
+
+ 
+
+          
+
+    </section>
+
+
+
+
+    
+
+    
+
+
+    
+    <footer class="footer" id="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#" class="logo">Youth Solutions</span></a>
+          </div>
+          <p>
+            Our platform is designed to help you gain sponsorships for your initiative and
+            achieve your dreams.
+          </p>
+        </div>
+        <div class="footer__col">
+          <h4>Quick Links</h4>
+          <ul class="footer__links">
+
+            <li><a href="hompepage.html">Opportunities</a></li>
+            <li><a href="#footer">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Follow Us</h4>
+          <ul class="footer__links">
+            <li><a href="https://www.facebook.com/profile.php?id=61561907866235&sk=about">Facebook</a></li>
+            <li><a href="https://www.instagram.com/youthsolutions__/">Instagram</a></li>
+            <li><a href="https://x.com/youthsolutions_">X</a></li>
+           
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Contact Us</h4>
+          <ul class="footer__links">
+            <li>
+              <a href="#">
+                <span><i class="ri-phone-fill"></i></span> 123 456 7891
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-map-pin-2-fill"></i></span> 123 Main Street,
+                Anytown, Canada
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="homepage.js"></script>
+  </body>
+</html>
